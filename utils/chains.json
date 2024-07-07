@@ -14,7 +14,7 @@
       "symbol": "POM",
       "decimals": 18
     },
-    "infoURL": "",
+    "infoURL": "https://pom.jibl2.com",
     "bridgeNative": "https://pom-bridge.jibl2.com",
     "bridgeErc20": "",
     "chainId": 7003,
@@ -41,7 +41,7 @@
       "symbol": "SENSE",
       "decimals": 18
     },
-    "infoURL": "",
+    "infoURL": "https://sense.jibl2.com",
     "bridge": "https://bridge.jbcha.in",
     "chainId": 7004,
     "explorers": [
@@ -67,7 +67,7 @@
       "symbol": "META",
       "decimals": 18
     },
-    "infoURL": "",
+    "infoURL": "https://meta-id.jibl2.com",
     "bridgeNative": "https://meta-id-bridge.jibl2.com",
     "bridgeErc20": "",
     "chainId": 7005,
