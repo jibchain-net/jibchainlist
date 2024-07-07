@@ -37,8 +37,12 @@ export default function Chain({ chain }) {
   }, []);
 
   const icon = useMemo(() => {
-    return chain.chainSlug ? `${assetPrefix}/images/rsz_${chain.chainSlug}.png` : `${assetPrefix}/unknown-logo.png`;
-  }, [chain]);
+    if (chain.image) {
+      return chain.image;
+    } else {
+      return chain.chainSlug ? `${assetPrefix}/images/rsz_${chain.chainSlug}.png` : `${assetPrefix}/unknown-logo.png`;
+    }
+  }, [chain, assetPrefix]);
 
   const chainId = useChain((state) => state.id);
   const updateChain = useChain((state) => state.updateChain);
@@ -82,6 +86,7 @@ export default function Chain({ chain }) {
           </Tooltip>
 
         </div>
+        <br></br>
         <div className={classes.chainInfoContainer}>
           <div className={classes.dataPoint}>
             <Typography variant="subtitle1" color="textSecondary" className={classes.dataPointHeader}>
@@ -98,8 +103,12 @@ export default function Chain({ chain }) {
         </div>
 
         <div className={classes.center}>
-          <a href={chain.bridge} target="_blank" rel="noreferrer">
-            <Chip label="Bridge" onClick={click} />
+          <a href={chain.bridgeErc20} target="_blank" rel="noreferrer">
+            <Chip label="Bridge ERC20 ↗︎" onClick={click} />
+          </a>
+          &nbsp;
+          <a href={chain.bridgeNative} target="_blank" rel="noreferrer">
+            <Chip label="Bridge Native ↗︎" onClick={click} />
           </a>
         </div>
 

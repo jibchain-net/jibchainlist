@@ -2,6 +2,7 @@
   {
     "name": "POM CHAIN",
     "chain": "POM",
+    "image": "https://pom.jibl2.com/assets/configs/network_icon.png",
     "rpc": [
       "https://pom-rpc.jibl2.com"
     ],
@@ -14,7 +15,8 @@
       "decimals": 18
     },
     "infoURL": "",
-    "bridge": "https://pom-bridge.jibl2.com",
+    "bridgeNative": "https://pom-bridge.jibl2.com",
+    "bridgeErc20": "",
     "chainId": 7003,
     "explorers": [
       {
@@ -27,6 +29,7 @@
   {
     "name": "Sense IoT Blockchain",
     "chain": "SENSE",
+    "image": "https://sense.jibl2.com/assets/configs/network_icon.png",
     "rpc": [
       "https://sense-rpc.jibl2.com"
     ],
@@ -39,12 +42,39 @@
       "decimals": 18
     },
     "infoURL": "",
-    "bridge": "https://sense-bridge.jibl2.com",
+    "bridge": "https://bridge.jbcha.in",
     "chainId": 7004,
     "explorers": [
       {
         "name": "blockscout",
         "url": "https://sense.jibl2.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "META Id Blockchain",
+    "chain": "META",
+    "image": "https://meta-id.jibl2.com/assets/configs/network_icon.png",
+    "rpc": [
+      "https://meta-id-rpc.jibl2.com"
+    ],
+    "faucets": [
+      ""
+    ],
+    "nativeCurrency": {
+      "name": "META",
+      "symbol": "META",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "bridgeNative": "https://meta-id-bridge.jibl2.com",
+    "bridgeErc20": "",
+    "chainId": 7005,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://meta-id.jibl2.com",
         "standard": "EIP3091"
       }
     ]

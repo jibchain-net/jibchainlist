@@ -8,5 +8,10 @@
     "rpcs": [
       "https://sense-rpc.jibl2.com"
     ]
+  },
+  "7005": {
+    "rpcs": [
+      "https://meta-id-rpc.jibl2.com"
+    ]
   }
 }
