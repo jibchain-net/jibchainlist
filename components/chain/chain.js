@@ -104,16 +104,16 @@ export default function Chain({ chain }) {
 
         <div className={classes.center}>
           <a href={chain.bridgeErc20} target="_blank" rel="noreferrer">
-            <Chip label="Bridge ERC20 ↗︎" onClick={click} />
+            <Chip label="Bridge ERC20 ↗︎" color="primary" variant="outlined" style={{margin:"3px 0"}} onClick={click} />
           </a>
           &nbsp;
           <a href={chain.bridgeNative} target="_blank" rel="noreferrer">
-            <Chip label="Bridge Native ↗︎" onClick={click} />
+            <Chip label="Bridge Native ↗︎" color="primary" variant="outlined" style={{margin:"3px 0"}} onClick={click} />
           </a>
         </div>
 
         <div className={classes.addButton}>
-          <Button variant="outlined" color="primary" onClick={() => addToNetwork(account, chain)}>
+          <Button color="primary" variant="contained" onClick={() => addToNetwork(account, chain)}>
             {renderProviderText(account)}
           </Button>
 
