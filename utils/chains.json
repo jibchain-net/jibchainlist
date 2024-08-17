@@ -2,9 +2,9 @@
   {
     "name": "POM CHAIN",
     "chain": "POM",
-    "image": "https://pom.list.jibl2.com/assets/configs/network_icon.png",
+    "image": "https://pom.jibl2.com/assets/configs/network_icon.png",
     "rpc": [
-      "https://pom-rpc.list.jibl2.com"
+      "https://pom-rpc.jibl2.com"
     ],
     "faucets": [
       ""
@@ -14,14 +14,14 @@
       "symbol": "POM",
       "decimals": 18
     },
-    "infoURL": "https://pom.list.jibl2.com",
-    "bridgeNative": "https://pom-bridge.list.jibl2.com",
-    "bridgeErc20": "https://bridge.list.jibl2.com/deposit/pom",
+    "infoURL": "https://pom.jibl2.com",
+    "bridgeNative": "https://pom-bridge.jibl2.com",
+    "bridgeErc20": "https://bridge.jibl2.com/deposit/pom",
     "chainId": 7003,
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://pom.list.jibl2.com",
+        "url": "https://pom.jibl2.com",
         "standard": "EIP3091"
       }
     ]
@@ -29,9 +29,9 @@
   {
     "name": "Sense IoT Blockchain",
     "chain": "SENSE",
-    "image": "https://sense.list.jibl2.com/assets/configs/network_icon.png",
+    "image": "https://sensejibl2.com/assets/configs/network_icon.png",
     "rpc": [
-      "https://sense-rpc.list.jibl2.com"
+      "https://sense-rpcjibl2.com"
     ],
     "faucets": [
       ""
@@ -41,15 +41,15 @@
       "symbol": "SENSE",
       "decimals": 18
     },
-    "infoURL": "https://sense.list.jibl2.com",
-    "infoURL": "https://sense.list.jibl2.com",
-    "bridgeNative": "https://sense-bridge.list.jibl2.com",
-    "bridgeErc20": "https://bridge.list.jibl2.com/deposit/sen",
+    "infoURL": "https://sensejibl2.com",
+    "infoURL": "https://sensejibl2.com",
+    "bridgeNative": "https://sense-bridgejibl2.com",
+    "bridgeErc20": "https://bridgejibl2.com/deposit/sen",
     "chainId": 7004,
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://sense.list.jibl2.com",
+        "url": "https://sensejibl2.com",
         "standard": "EIP3091"
       }
     ]
@@ -57,9 +57,9 @@
   {
     "name": "META Id Blockchain",
     "chain": "META",
-    "image": "https://meta-id.list.jibl2.com/assets/configs/network_icon.png",
+    "image": "https://meta-idjibl2.com/assets/configs/network_icon.png",
     "rpc": [
-      "https://meta-id-rpc.list.jibl2.com"
+      "https://meta-id-rpcjibl2.com"
     ],
     "faucets": [
       ""
@@ -69,14 +69,14 @@
       "symbol": "META",
       "decimals": 18
     },
-    "infoURL": "https://meta-id.list.jibl2.com",
-    "bridgeNative": "https://meta-id-bridge.list.jibl2.com",
-    "bridgeErc20": "https://bridge.list.jibl2.com/deposit/meta",
+    "infoURL": "https://meta-idjibl2.com",
+    "bridgeNative": "https://meta-id-bridgejibl2.com",
+    "bridgeErc20": "https://bridgejibl2.com/deposit/meta",
     "chainId": 7005,
     "explorers": [
       {
         "name": "blockscout",
-        "url": "https://meta-id.list.jibl2.com",
+        "url": "https://meta-idjibl2.com",
         "standard": "EIP3091"
       }
     ]
@@ -98,7 +98,7 @@
     },
     "infoURL": "https://exp.lavarock.xyz",
     "bridgeNative": "https://bridge.lavarock.xyz",
-    "bridgeErc20": "https://bridge.list.jibl2.com/deposit/lava",
+    "bridgeErc20": "https://bridgejibl2.com/deposit/lava",
     "chainId": 8899001,
     "explorers": [
       {
