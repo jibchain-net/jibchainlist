@@ -1,17 +1,17 @@
 {
   "7003": {
     "rpcs": [
-      "https://pom-rpc.jibl2.com"
+      "https://pom-rpc.list.jibl2.com"
     ]
   },
   "7004": {
     "rpcs": [
-      "https://sense-rpc.jibl2.com"
+      "https://sense-rpc.list.jibl2.com"
     ]
   },
   "7005": {
     "rpcs": [
-      "https://meta-id-rpc.jibl2.com"
+      "https://meta-id-rpc.list.jibl2.com"
     ]
   }
 }
